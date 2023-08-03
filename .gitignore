@@ -1,0 +1,31 @@
+# Direktori Vendor
+/vendor/
+
+# Berkas lingkungan
+.env
+
+# Direktori cache
+/bootstrap/cache/
+/storage/framework/cache/
+/storage/framework/sessions/
+/storage/framework/testing/
+/storage/framework/views/
+
+# Berkas cache lainnya
+*.swp
+*.swo
+*.swn
+*.bak
+*.bak2
+*.log
+
+# Direktori Node.js
+/node_modules/
+
+# Berkas dan direktori lain yang mungkin diabaikan
+/public/hot
+/public/storage
+/.idea
+/.phpunit.result.cache
+/_ide_helper.php
+/_ide_helper_models.php
